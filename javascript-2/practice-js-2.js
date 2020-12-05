@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = 'Git is a system that can be added onto a computer that allows for managing files and directories through a terminal.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition = 'GitHub is a website where code projects can be uploaded and stored through Git. Projects can be forked and cloned by users to edit their own copies.'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -34,6 +36,10 @@
 */
 
 //CODE HERE
+let init = {
+    description: 'creates a new Git repository',
+    code: 'git init',
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +48,10 @@
 */
 
 //CODE HERE
+let clone = {
+    description: 'transfers a copy of a project from GitHub to the computer',
+    code: 'git clone',
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +60,10 @@
 */
 
 //CODE HERE
+let status = {
+    description: 'checks if the changes made to a project have been saved',
+    code: 'git status',
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +72,10 @@
 */
 
 //CODE HERE
+let add = {
+    description: 'finalizes changes for uploading to GitHub',
+    code: 'git add .'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +84,10 @@
 */
 
 //CODE HERE
+let commit = {
+    description: 'formats changes and allows the user to add an update message to the project',
+    code: 'git commit -m',
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +96,10 @@
 */
 
 //CODE HERE
+let addRemote = {
+    description: 'adds a remote repository',
+    code: 'git remote add origin',
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +108,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: 'uploads the project to GitHub',
+    code: 'git push'
+}
